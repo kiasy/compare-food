@@ -1,0 +1,30 @@
+.IntroContainer {
+    display: flex;
+    background: #D5CEA3;
+}
+
+.Intro {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1400px;
+    min-width: 200px;
+    height: 400px;
+    align-content: center;
+    justify-content: center;
+    border: solid red;
+    background: #D5CEA3;
+    gap: 20px;
+}
+
+.Intro--numbers {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.Intro--instructions {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}

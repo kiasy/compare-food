@@ -1,0 +1,32 @@
+.NavbarContainer {
+    display: flex;
+    height: 75px;
+    background: #1A120B;
+    justify-content: center;
+    color: white;
+}
+
+.NavbarContainer > .Navbar {
+    display: flex;
+    width: 100%;
+    max-width: 1400px;
+    min-width: 200px;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+
+.NavbarContainer > .Navbar > .Navbar--left {
+    padding-left: 25px;
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
+
+.NavbarContainer > .Navbar > .Navbar--right {
+    display: flex;
+    padding-right: 25px;
+    gap: 20px;
+}
+
+

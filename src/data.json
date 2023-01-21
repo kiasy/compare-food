@@ -1,0 +1,86 @@
+[
+    {
+        "ID": "1",
+        "Name": "Wine - Red",
+        "LiqSol": "Liquid",
+        "Cal": "85",
+        "Fat": "0",
+        "SatFat": "0",
+        "TraFat": "0",
+        "PolyFat": "0",
+        "MonoFat": "0",
+        "Chol": "0"
+    },
+    {
+        "ID": "2",
+        "Name": "Wine - White",
+        "LiqSol": "Liquid",
+        "Cal": "82",
+        "Fat": "0",
+        "SatFat": "0",
+        "TraFat": "0",
+        "PolyFat": "0",
+        "MonoFat": "0",
+        "Chol": "0"
+    },
+    {
+        "ID": "3",
+        "Name": "Beer - Lager",
+        "LiqSol": "Liquid",
+        "Cal": "37",
+        "Fat": "0",
+        "SatFat": "0",
+        "TraFat": "0",
+        "PolyFat": "0",
+        "MonoFat": "0",
+        "Chol": "0"
+    },
+    {
+        "ID": "4",
+        "Name": "Beer - Pale Ale",
+        "LiqSol": "Liquid",
+        "Cal": "46",
+        "Fat": "0",
+        "SatFat": "0",
+        "TraFat": "0",
+        "PolyFat": "0",
+        "MonoFat": "0",
+        "Chol": "0"
+    },
+    {
+        "ID": "5",
+        "Name": "Juice - Orange",
+        "LiqSol": "Liquid",
+        "Cal": "50",
+        "Fat": "0.1",
+        "SatFat": "0",
+        "TraFat": "0",
+        "PolyFat": "0",
+        "MonoFat": "0",
+        "Chol": "0"
+    },
+    {
+        "ID": "6",
+        "Name": "Juice - Apple",
+        "LiqSol": "Liquid",
+        "Cal": "46",
+        "Fat": "0",
+        "SatFat": "0",
+        "TraFat": "0",
+        "PolyFat": "0",
+        "MonoFat": "0",
+        "Chol": "0"
+    },
+    {
+        "ID": "7",
+        "Name": "Chicken ",
+        "LiqSol": "Solid",
+        "Cal": "5",
+        "Fat": "5",
+        "SatFat": "5",
+        "TraFat": "5",
+        "PolyFat": "5",
+        "MonoFat": "5",
+        "Chol": "5"
+    }
+]
