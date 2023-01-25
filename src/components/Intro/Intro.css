@@ -1,6 +1,8 @@
 .IntroContainer {
     display: flex;
     background: #D5CEA3;
+    align-content: center;
+    justify-content: center;
 }
 
 .Intro {
