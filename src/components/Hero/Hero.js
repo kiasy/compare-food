@@ -5,13 +5,10 @@ import Dropdown from "./Dropdown.js";
 function Hero() {
  
   return (
-    <div>
+    <div className="heroContainer">
         <Dropdown />
     </div>
   );
 }
 
 export default Hero;
-
-
-  /*Hi*/
