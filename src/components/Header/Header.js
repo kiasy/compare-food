@@ -12,7 +12,7 @@ function Header() {
             </div>
             <div className="Navbar--right">
                 <h1 className="Navbar--right--List">
-                    Food List
+                    Data
                 </h1>
                 <h1 className="Navbar--right--FAQ">
                     FAQ

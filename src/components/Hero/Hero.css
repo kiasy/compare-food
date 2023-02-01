@@ -1,15 +1,88 @@
+/******** Dropdown menus ********/
+.dropdownContainer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 75px;
+    gap: 25px;
+    background-color: #E5E5CB;
+}
+
+.dropdownSelections {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+
+}
+
+.dropdownItem1, .dropdownItem2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/******** Nutrition comparison table********/
+
+/******** First column ********/
+td:nth-child(1) {  
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+td:nth-child(2), td:nth-child(3) {  
+    min-width: 150px;
+}
+
+/******** First row ********/
+
+table tr:first-child td {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
 table {
-    border-collapse: collapse;
+    margin: 0 auto;
     width: 100%;
-  }
+    max-width: 700px;
+    min-width: 200px;
+}
   
-  th, td {
+th, td {
     border: 1px solid #dddddd;
     padding: 8px;
     text-align: left;
-  }
+    margin: 0 auto;
+    text-align: center;
+}
   
-  th {
+th {
     background-color: #1A120B;
     color: #D5CEA3;
-  }
+    margin: 0 auto;
+}
+
+.leftColumn {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.topLeft {
+    background-color: transparent;
+}
+
+select {
+    padding: 8px 16px;
+    font-size: 16px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #D5CEA3;
+    text-align-last:center;
+    color: #000000; /* text color */
+}
+
+.dropdownTable {
+    padding-bottom: 60px;
+}
