@@ -42,23 +42,23 @@ function Dropdown() {
             <div className="dropdownSelections"> 
 				<div className="dropdownItem1"> {/* User selection - first item*/}
 					<select className="bb" onChange={handleOptionChange}>
-						<option value="">Select an option</option>
-						<option value="Liquid">Liquid</option>
-						<option value="Solid">Solid</option>
+						<option value="">Select a category</option>
+						<option value="Liquid">Beverage</option>
+						<option value="Solid">Food</option>
 					</select>
 					<select disabled={!selectedOption} onChange={handleSelectionChange} className="bb1">
-						<option value="">Select an Item</option>
+						<option value="">Select an item</option>
 						{selectedData.map(item => <option key={item.ID} value={item.Name}>{item.Name}</option>)}
 					</select>
 				</div>
 				<div className="dropdownItem2">
 					<select onChange={handleOptionChange2}> {/* User selection - first item*/}
-						<option value="">Select an option</option>
-						<option value="Liquid">Liquid</option>
-						<option value="Solid">Solid</option>
+						<option value="">Select a category</option>
+						<option value="Liquid">Beverage</option>
+						<option value="Solid">Food</option>
 					</select>
 					<select disabled={!selectedOption2} onChange={handleSelectionChange2}>
-						<option value="">Select an Item</option>
+						<option value="">Select an item</option>
 						{selectedData2.map(item => <option key={item.ID} value={item.Name}>{item.Name}</option>)}
 					</select>
 				</div>

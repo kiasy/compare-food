@@ -29,4 +29,14 @@
     gap: 20px;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #D5CEA3;
+    text-shadow: 0px 0px 4px rgba(213, 206, 163, 1);
+}
+
 

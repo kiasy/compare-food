@@ -4,9 +4,7 @@ import stepOne from "../../images/clickOne.svg";
 import stepTwo from "../../images/clickTwo.svg";
 import stepThree from "../../images/scale.svg";
 
-
 function Intro() {
-  
   return (
     <div className="IntroContainer">
         <div className="Intro">
@@ -39,6 +37,5 @@ function Intro() {
     </div>
   );
 }
-
 
 export default Intro;

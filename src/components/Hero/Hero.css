@@ -28,20 +28,20 @@ td:nth-child(1) {
     justify-content: center;
     font-weight: bold;
     font-size: 18px;
+    background-color: #D5CEA3; 
 }
 
-
+/******** Second & Third columns ********/
 td:nth-child(2), td:nth-child(3) {  
     min-width: 150px;
 }
 
 /******** First row ********/
-
-table tr:first-child td {
+table tr:first-child {
     font-weight: bold;
     font-size: 18px;
+    background-color: #D5CEA3; 
 }
-
 
 table {
     margin: 0 auto;
@@ -57,15 +57,16 @@ th, td {
     margin: 0 auto;
     text-align: center;
 }
+
+tr:not(:first-child):hover td:not(:first-child):hover {
+    background-color: #a3d5b0;
+  }
+
+
   
 th {
     background-color: #1A120B;
     color: #D5CEA3;
-    margin: 0 auto;
-}
-
-.leftColumn {
-    width: 200px;
     margin: 0 auto;
 }
 
