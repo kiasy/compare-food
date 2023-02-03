@@ -2,7 +2,7 @@
 .dropdownContainer {
     display: flex;
     flex-direction: column;
-    padding-top: 75px;
+    padding-top: 50px;
     gap: 25px;
     background-color: #E5E5CB;
 }
@@ -11,7 +11,7 @@
     display: flex;
     gap: 50px;
     justify-content: center;
-
+    padding-bottom: 10px;
 }
 
 .dropdownItem1, .dropdownItem2 {
@@ -47,7 +47,6 @@ table {
     margin: 0 auto;
     width: 100%;
     max-width: 700px;
-    min-width: 200px;
 }
   
 th, td {
@@ -67,7 +66,6 @@ tr:not(:first-child):hover td:not(:first-child):hover {
 th {
     background-color: #1A120B;
     color: #D5CEA3;
-    margin: 0 auto;
 }
 
 .topLeft {
@@ -81,9 +79,43 @@ select {
     border-radius: 5px;
     background-color: #D5CEA3;
     text-align-last:center;
-    color: #000000; /* text color */
+    color: #000000;
 }
 
 .dropdownTable {
     padding-bottom: 60px;
+}
+
+/* */
+/* Responsive media queries below */
+/* */
+
+/* max-width: 650px */
+@media (max-width: 650px) {
+    .dropdownContainer {
+        padding-top: 25px;
+    }
+
+    table {
+        margin: 0 auto;
+        width: 95%;
+        max-width: 500px;
+        font-size: 12px;
+    }
+
+    td:nth-child(1) {  
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 12px;
+        background-color: #D5CEA3; 
+    }
+
+    table tr:first-child {
+        font-weight: bold;
+        font-size: 12px;
+        background-color: #D5CEA3; 
+    }
+
+
 }

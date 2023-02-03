@@ -35,9 +35,7 @@ function Dropdown() {
     }
 
     return (
-		
         <div className="dropdownContainer">
-
 			{/* User selection - dropdown menus*/}
             <div className="dropdownSelections"> 
 				<div className="dropdownItem1"> {/* User selection - first item*/}

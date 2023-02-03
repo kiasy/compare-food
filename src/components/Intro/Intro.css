@@ -47,3 +47,35 @@
     font-weight: bold;
 }
 
+/* */
+/* Responsive media queries below */
+/* */
+
+/* max-width: 650px */
+
+@media (max-width: 650px) {
+    .Intro--title {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 650px) {
+    img {
+        width: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 650px) {
+    .Intro--numbers-1, .Intro--numbers-2, .Intro--numbers-3 {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 650px) {
+    .Intro {
+        height: 225px;
+    }
+}
