@@ -11,22 +11,10 @@
     width: 100%;
     max-width: 1800px;
     min-width: 200px;
-    justify-content: space-between;
     align-items: center; 
-}
-
-
-.NavbarContainer > .Navbar > .Navbar--left {
     padding-left: 25px;
     font-size: 30px;
-    font-weight: bolder;
-    
-}
-
-.NavbarContainer > .Navbar > .Navbar--right {
-    display: flex;
-    padding-right: 25px;
-    gap: 20px;
+    font-weight: bolder; 
 }
 
 a {
@@ -37,6 +25,28 @@ a {
 a:hover {
     color: #D5CEA3;
     text-shadow: 0px 0px 4px rgba(213, 206, 163, 1);
+}
+
+/* */
+/* Responsive media queries below */
+/* */
+
+/* max-width: 650px */
+
+@media (max-width: 650px) {
+    .NavbarContainer > .Navbar {
+      display: flex;
+      justify-content: center; 
+      padding-left: 0px;
+    }
+}
+
+/* max-width: 360px */
+
+@media (max-width: 360px) {
+    .NavbarContainer > .Navbar > a{
+        font-size: 24px;
+    }
 }
 
 

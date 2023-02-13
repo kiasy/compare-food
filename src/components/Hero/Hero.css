@@ -91,6 +91,7 @@ select {
 /* */
 
 /* max-width: 650px */
+
 @media (max-width: 650px) {
     .dropdownContainer {
         padding-top: 25px;
@@ -100,22 +101,99 @@ select {
         margin: 0 auto;
         width: 95%;
         max-width: 500px;
-        font-size: 12px;
+        font-size: 11px;
     }
 
     td:nth-child(1) {  
         display: flex;
         justify-content: center;
         font-weight: bold;
-        font-size: 12px;
+        font-size: 11px;
         background-color: #D5CEA3; 
     }
 
     table tr:first-child {
         font-weight: bold;
-        font-size: 12px;
+        font-size: 11px;
         background-color: #D5CEA3; 
     }
 
+    td:nth-child(2), td:nth-child(3) {  
+        min-width: 100px;
+    }
 
+}
+
+/* max-width: 420px */
+
+@media (max-width: 420px) {
+    table {
+        margin: 0 auto;
+        width: 95%;
+        max-width: 420px;
+        font-size: 9.75px;
+    }
+
+    td:nth-child(1) {  
+        font-size: 10px;
+    }
+
+    table tr:first-child {
+        font-size: 10px;
+    }
+
+    td:nth-child(2), td:nth-child(3) {  
+        min-width: 80px;
+    }
+
+    .dropdownSelections {
+        gap: 20px;
+    }
+
+    .dropdownItem1, .dropdownItem2 {
+        gap: 5px;
+        width: 45%;
+        font-size: 12px;
+    }
+
+    select {
+        font-size: 12px;
+    }
+}
+
+/* max-width: 360px */
+
+@media (max-width: 360px) {
+    table {
+        margin: 0 auto;
+        width: 95%;
+        max-width: 360px;
+        font-size: 9px;
+    }
+
+    td:nth-child(1) {  
+        font-size: 8px;
+    }
+
+    table tr:first-child {
+        font-size: 8px;
+    }
+
+    td:nth-child(2), td:nth-child(3) {  
+        min-width: 70px;
+    }
+
+    .dropdownSelections {
+        gap: 10px;
+    }
+
+    .dropdownItem1, .dropdownItem2 {
+        gap: 5px;
+        width: 45%;
+        font-size: 9px;
+    }
+
+    select {
+        font-size: 9px;
+    }
 }

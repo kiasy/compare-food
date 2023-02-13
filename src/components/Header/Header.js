@@ -5,9 +5,7 @@ function Header() {
   return (
     <div className="NavbarContainer">
         <nav className="Navbar">
-            <div className="Navbar--left">
-                <a href=".">Compare Food</a>
-            </div>
+            <a href=".">Compare Food</a>
         </nav>
     </div>
   );

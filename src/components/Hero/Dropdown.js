@@ -39,7 +39,7 @@ function Dropdown() {
 			{/* User selection - dropdown menus*/}
             <div className="dropdownSelections"> 
 				<div className="dropdownItem1"> {/* User selection - first item*/}
-					<select className="bb" onChange={handleOptionChange}>
+					<select onChange={handleOptionChange}>
 						<option value="">Select a category</option>
 						<option value="Liquid">Beverage</option>
 						<option value="Solid">Food</option>

@@ -50,3 +50,17 @@ hr {
     font-size: 12px;
     flex-basis: 33.33%;
 }
+
+/* max-width: 360px */
+
+@media (max-width: 360px) {
+    .footerContainer > .footerSocial > a {
+        display: flex;
+        justify-content: center;
+        flex-basis: 33.33%;
+    }
+    
+    .footerText {
+        font-size: 10px;
+    }
+}
