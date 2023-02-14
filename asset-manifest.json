@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/compare-food/static/css/main.6c92ceab.css",
+    "main.js": "/compare-food/static/js/main.81910fd3.js",
+    "static/media/scale.svg": "/compare-food/static/media/scale.2f0e87c641ec63f705ce042d6b33037e.svg",
+    "static/media/clickTwo.svg": "/compare-food/static/media/clickTwo.7f87fb0c02b20a84d9caa7b8f56c075b.svg",
+    "static/media/clickOne.svg": "/compare-food/static/media/clickOne.ec80539d753850cf60e49e55d22229b3.svg",
+    "index.html": "/compare-food/index.html",
+    "main.6c92ceab.css.map": "/compare-food/static/css/main.6c92ceab.css.map",
+    "main.81910fd3.js.map": "/compare-food/static/js/main.81910fd3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c92ceab.css",
+    "static/js/main.81910fd3.js"
+  ]
+}
